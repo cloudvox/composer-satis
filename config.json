@@ -1,0 +1,26 @@
+{
+	"name": "DialogTech Private Repo",
+	"homepage": "https:\/\/packages.dialogtech.com",
+	"repositories": [{
+		"type": "git",
+		"url": "git@github.com:cloudvox\/php-stanford-nlp.git"
+	}, {
+		"type": "git",
+		"url": "git@github.com:cloudvox\/redactor.git"
+	}, {
+		"type": "package",
+		"package": {
+			"name": "dialogtech/enhanced-nlp-engine",
+			"version": "1.0",
+			"dist": {
+				"url": "https://s3.amazonaws.com/enhanced-nlp-dist/enhanced-nlp-1.0.zip",
+				"type": "zip"
+			},
+			"bin": ["eNLP.jar"]
+		}
+	}],
+	"require-all": true,
+	"require-dependencies": true,
+	"require-dev-dependencies": true,
+	"minimum-stability": "dev"
+}
